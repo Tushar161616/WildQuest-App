@@ -1,12 +1,53 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AppLayout from "./components/AppLayout";
+
+
+
 import Home from "./pages/Home";
 import Tracking from "./pages/Tracking";
 import Safari from "./pages/Safari";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import { Route,Routes } from "react-router-dom";
+
+
+const router = createBrowserRouter([
+
+  {
+    path : "/",
+    element : <AppLayout />,
+    children : [
+      {
+        path : "/",
+        element : <Home />,
+      },
+
+      {
+        path : "tracking",
+        element : <Tracking />,
+      },
+
+      {
+        path : "safari",
+        element : <Safari />,
+      },
+
+      {
+        path : "services",
+        element : <Services />,
+      },
+
+      {
+        path : "contact",
+        element : <Contact />,
+      },
+
+
+    ],
+  }
+
+
+]);
 
 
 function App() {
@@ -14,22 +55,9 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Home />
-      <Routes>
-
-        <Route path="/Home" element={ <Home />} />
-        <Route path="/Tracking" element={ <Tracking />} />
-        <Route path="/Safari" element={ <Safari />} />
-        <Route path="/Services" element={ <Services />} />
-        <Route path="/Contact" element={<Contact />} />
-
-      </Routes>
-
-    
-      <Footer />
+     <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
 
-export default App
+export default App;

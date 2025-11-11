@@ -57,7 +57,7 @@ const Footer = () => {
            
             {/* bottom msg */}
             <div className=" absolute bottom-0 left-0 w-full h-[40px] bg-green-300 flex justify-center items-center">
-                <div>© 2025 WildQuest Adventures — Where every journey becomes a story| Designed with <FontAwesomeIcon icon={faHeart} beat size="lg" style={{color: "#ff0000",}} /> in India |</div>
+                <div>© 2025 WildQuest Adventures — Where every journey becomes a story | Designed with <FontAwesomeIcon icon={faHeart} beat size="lg" style={{color: "#ff0000",}} /> in India |</div>
             </div>
         </div>
     )

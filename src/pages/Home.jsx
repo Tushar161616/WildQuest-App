@@ -1,7 +1,135 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Pakage from "../components/Pakage";
 
+const hilldata = [
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/nainital-explore.webp",
+        title : "Nainital",
+    },
+
+     {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/auli-explore.webp",
+        title : "Auli",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/mussoorie-explore.webp",
+        title : "Mussoorie",
+    },
+
+     {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/almora-explore.webp",
+        title : "Almora",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/badrinath-explore.webp",
+        title : "Badrinath",
+    },
+
+     {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/gangotri-explore.webp",
+        title : "Gangotri",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/kausani-explore.webp",
+        title : "Kausani",
+    },
+
+     {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/ranikhet-explore.webp",
+        title : "Ranikhet",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/srinagar-explore.webp",
+        title : "Srinagar",
+    },
+
+     {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/pahalgam-explore.webp",
+        title : "Pahalgam",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/sonmarg-explore.webp",
+        title : "Sonmarg",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/gulmarg-explore.webp",
+        title : "Gulmarg",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/manali-explore.webp",
+        title : "Manali",
+    },
+
+     {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/shimla-explore.webp",
+        title : "Shimla",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/dalhousie-explore.webp",
+        title : "Dalhousie",
+    },
+
+    
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/kullu-explore.webp",
+        title : "Kullu",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/gangtok-explore.webp",
+        title : "Gangtok",
+    },
+
+    
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/darjeeling-explore.webp",
+        title : "Darjeeling",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/ooty-explore.webp",
+        title : "Ooty",
+    },
+
+    
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/mahabaleshwar-explore.webp",
+        title : "Mahabaleshwar",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/lonavala-explore.webp",
+        title : "Lonavala",
+    },
+
+    
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/kodaikanal-explore.webp",
+        title : "Kodaikanal",
+    },
+
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/kalimpong-explore.webp",
+        title : "Kalimpong",
+    },
+
+    
+    {
+        img : "https://www.tourmyindia.com/hill_stations/assets/img/wayanad-explore.webp",
+        title : "Wayanad",
+    },
+
+
+
+]
 
 const Home = () => {
 
@@ -102,10 +230,36 @@ const Home = () => {
 
             </div>
 
+            {/* hill stations */}
 
-            {/* Travel Pakages */}
+            <div className="w-full  bg-gray-400 py-[40px] flex flex-col items-center">
+                {/* heading */}
+                <div className="text-5xl font-bold text-center text-black">Explore Top Hill Stations</div>
 
-            <Pakage />
+                {/* name cards */}
+
+                  <div className="w-[80%] my-[30px] flex items-center gap-8 justify-center flex-wrap">
+
+                {hilldata.map((hill,i)=>(
+
+                    <div key={i} className="border border-gray-200 pl-2.5 flex items-center justify-start gap-2 w-[250px] h-[100px] bg-white hover:shadow-2xl">
+                        <img src={hill.img} />
+                        <div className="text-xl">{hill.title}</div>
+                    </div>
+                    
+                ))}
+
+              
+
+                    
+                </div>
+
+
+            </div>
+
+
+
+            
 
         </div>
     )

@@ -1,109 +1,98 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Pakage from "../components/Pakage";
+
+const cardData = [
+    {
+        img: "https://www.tourmyindia.com/packages-tour-india/wildlife-tour-packages/tmimg/wildlife-img/golden-tiger.webp",
+        title : "Tigers With Golden Triangle",
+    },
+
+    {
+        img: "https://www.tourmyindia.com/packages-tour-india/wildlife-tour-packages/tmimg/wildlife-img/kipling-tiger.webp",
+        title : "Kipling's Playground Tiger",
+    },
+
+     {
+        img: "https://www.tourmyindia.com/packages-tour-india/wildlife-tour-packages/tmimg/wildlife-img/bandipur-waya-tiger.webp",
+        title : "Bandipur National Park With Wayanad",
+    },
+
+
+    {
+        img: "https://www.tourmyindia.com/packages-tour-india/wildlife-tour-packages/tmimg/wildlife-img/mysterious-tiger.webp",
+        title : "Mysterious Sunderbans Tour",
+    },
+
+     {
+        img: "https://www.tourmyindia.com/packages-tour-india/wildlife-tour-packages/tmimg/wildlife-img/karnataka-safari.webp",
+        title : "Karnataka Wildlife Safari Tour",
+    },
+
+     {
+        img: "https://www.tourmyindia.com/packages-tour-india/wildlife-tour-packages/tmimg/wildlife-img/land-of-tiger.webp",
+        title : "Tadoba – The Land Of Tiger Tour",
+    },
+
+
+
+]
+
+
 
 const Safari = () => {
     return(
-        <div>
-               <Hero />
+           <div>
+            
+            <div style={{ backgroundImage: `url("https://t4.ftcdn.net/jpg/03/10/11/87/360_F_310118733_yP2aaium410OlaEUaP5zjbLIL8isZlvN.jpg")`, backgroundRepeat:"no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }} className=" w-full h-[50vh] bg-green-500 flex flex-col justify-center items-center">
+                <p className="mt-2 text-5xl font-bold tracking-tight text-balance text-white sm:text-6xl">
+         Wildlife Packages
+        </p>
 
-            {/* up-coming events section */}
-
-            <div className="bg-gray-300 w-full py-5 px-14 ">
-                {/* main heading */}
-                <h1 className="text-4xl font-semibold m-5 ">Upcoming Adventures</h1>
-               
-               {/* event-1 */}
-               <div className="flex mt-20">
-
-                 {/* image section */}
-                <div className=" flex justify-left items-center w-[50%] h-[50vh] ">
-                    <img className="rounded-2xl object-cover w-[600px] h-[350px]" src="https://desertheritagecampandresort.com/img/nightcampjaisalmer.jpg" />
-                </div>
-
-                {/* Text section */}
-                <div className=" w-[50%] h-[50vh] flex flex-col justify-center items-end gap-5">
-                    {/* box heading */}
-                    <div className="text-3xl font-semibold">Moonlight Desert Trek – Jaisalmer (Dec 2025)</div>
-
-                    <p className="text-lg text-right">Feel the magic of golden desert dunes under a blanket of sparkling stars as night falls, where silence speaks, adventure rises, and unforgettable moments come alive beneath the moonlit sky.</p>
-
-                                       <a href="#" className="btn inline-block py-3 px-7 bg-blue-500
-                    shadow text-white font-semibold rounded-md 
-                    hover:bg-blue-800 hover:text-white"
-                >
-                 Join the Adventure
-                </a>
-
-                </div>
-
-               
-
-                </div>
-
-                {/* event-2 */}
-               <div className="flex mt-20">
-
-                
-                {/* Text section */}
-                <div className=" w-[50%] h-[50vh] flex flex-col justify-center items-start gap-5">
-                    {/* box heading */}
-                    <div className="text-3xl font-semibold">Valley Bike Expedition – Manali (Jan 2026)</div>
-
-                    <p className="text-lg text-left">Ride through the mighty Himalayas, where thrilling mountain roads, fresh chill winds, breathtaking heights, and endless adventure come together, giving you a journey filled with excitement, courage, and unforgettable memories.
-</p>
-
-                                        <a href="#" className="btn inline-block py-3 px-7 bg-blue-500
-                    shadow text-white font-semibold rounded-md 
-                    hover:bg-blue-800 hover:text-white"
-                >
-                 Join the Adventure
-                </a>
-
-                </div>
-
-                {/* image section */}
-                <div className=" flex justify-end items-center w-[50%] h-[50vh] ">
-                    <img className="rounded-2xl object-cover w-[600px] h-[350px]" src="https://internationalyouthclub.org/wp-content/uploads/2025/01/9t3sb7fcwhcssudujutvh03b4af5_spiti_11zon.jpg" />
-                </div>
-
-                </div>
-
-                {/* event-3 */}
-               <div className="flex mt-20">
-
-                 {/* image section */}
-                <div className=" flex justify-left items-center w-[50%] h-[50vh] ">
-                    <img className="rounded-2xl object-cover w-[600px] h-[350px]" src="https://d26dp53kz39178.cloudfront.net/media/uploads/products/Camping-20_result-1674988744799.webp" />
-                </div>
-
-                {/* Text section */}
-                <div className="  w-[50%] h-[50vh] flex flex-col justify-center items-end gap-5">
-                    {/* box heading */}
-                    <div className="text-3xl font-semibold">Mystery Forest Camping – Jim Corbett (Feb 2026)</div>
-
-                    <p className="text-lg text-right">Enjoy warm bonfire nights, thrilling wildlife stories, and magical stargazing moments in Jim Corbett Park, where nature’s beauty, adventure, and unforgettable experiences come together under the serene forest sky.</p>
-
-                    <a href="#" className="btn inline-block py-3 px-7 bg-blue-500
-                    shadow text-white font-semibold rounded-md 
-                    hover:bg-blue-800 hover:text-white"
-                >
-                 Join the Adventure
-                </a>
-
-                </div>
-
-               
-
-                </div>
-
-
+        <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-black sm:text-xl/8">
+       Fun-filled wildlife tours designed for all ages.
+Discover forests, animals, and nature like never before.
+      </p>
             </div>
 
+           
 
-            {/* Travel Pakages */}
 
-            <Pakage />
+
+
+            <div className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+      <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
+        
+        
+      </div>
+     
+
+    <div className='flex flex-wrap items-center justify-center gap-20'>
+        
+       
+
+        
+
+        {cardData.map((card, index) => (
+                <div
+                    key={index}
+                    className=" w-[30vw] h-[80vh] rounded-3xl relative bg-cover bg-center bg-no-repeat"
+                    style={{ backgroundImage: `url(${card.img})` }}
+                >
+                    <div className="absolute bottom-0 left-0 text-white text-4xl font-medium mx-4 my-6 drop-shadow-lg">
+                    {card.title}
+                    </div>
+                </div>
+                ))}
+
+
+
+        
+    </div>
+
+
+
+
+
+    </div>
 
         </div>
     )

@@ -28,7 +28,7 @@ const Header = () => {
            {/* left div for logo*/}
            <div className=" w-[40%] h-[50px] flex justify-evenly items-center font-sans">
             {/* logo */}
-             <div className=" text-[30px] font-bold"><NavLink to="./Home">WildQuest</NavLink> </div>
+             <div className=" text-[30px] font-bold"><NavLink to="/">WildQuest</NavLink> </div>
 
              {/* searchbar */}
 
