@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* responsive css */
+
+@media (max-width:480px){
+
+    /* header code */
+    
+.ham-menu{
+    display: inline-block;
+}
+
+#nav-links{
+    display: none !important;
+}
+
+#srch-box{
+    top: 60px !important;
+    right: 10px !important;
+}
+
+.leftdiv{
+    width: 100% !important;
+}
+
+.leftdiv>input{
+    padding-left: 10px !important;
+}
+
+/* hero code */
+/* 
+.htitle{
+    font-size: 30px !important;
+}
+
+.hdes{
+    font-size: small !important;
+ 
+}
+
+.btn{
+   font-size: 15px !important;
+   padding: 10px 20px !important;
+   margin-top: 10px !important;
+}
+
+.lefttext{
+    display: none;
+}
+
+.righttext{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* footer code */
+
+/* .bmsg{
+
+    font-size: 10px !important;
+
+}
+
+.btext{
+    flex-direction: column !important;
+    height: 100% !important;
+    flex-wrap: wrap;
+   
+    gap: 50px !important;
+}
+
+.btext>div{
+   width: 50% !important;
+
+    
+}
+
+.bbox{
+     height: 100% !important;
+     padding: 100px 0px !important;
+} */
+
+
+
+}
+
+
+@media (max-width:575px){
+
+    
+}
+
+@media (max-width:767px){
+
+    
+}
+
+@media (max-width:991px){
+
+    
+}
+

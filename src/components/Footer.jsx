@@ -9,10 +9,10 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 const Footer = () => {
 
     return(
-        <div className="bg-gray-800 h-[40vh] w-full relative flex flex-col">
+        <div className="bbox bg-gray-800 h-[40vh] w-full relative flex flex-col">
 
             {/* text section */}
-            <div className=" w-full h-[30vh] flex justify-evenly items-center ">
+            <div className="btext  w-full h-[30vh] flex justify-evenly items-center ">
                
                 {/* services */}
                 <div className="pl-20  w-[30%] h-full flex flex-col gap-2 justify-center ">
@@ -57,7 +57,7 @@ const Footer = () => {
            
             {/* bottom msg */}
             <div className=" absolute bottom-0 left-0 w-full h-[40px] bg-green-300 flex justify-center items-center">
-                <div>© 2025 WildQuest Adventures — Where every journey becomes a story | Designed with <FontAwesomeIcon icon={faHeart} beat size="lg" style={{color: "#ff0000",}} /> in India |</div>
+                <div className="bmsg">© 2025 WildQuest Adventures — Where every journey becomes a story | Designed with <FontAwesomeIcon icon={faHeart} beat size="lg" style={{color: "#ff0000",}} /> in India |</div>
             </div>
         </div>
     )

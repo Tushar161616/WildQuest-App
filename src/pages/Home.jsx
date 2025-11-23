@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../components/Hero";
+
+
 
 const hilldata = [
     {
@@ -131,15 +133,23 @@ const hilldata = [
 
 ]
 
+ 
+
 const Home = () => {
+
+
+
+ 
 
     return(
         <div>
+            {/* mobile sidebar */}
+           
             <Hero />
 
             {/* up-coming events section */}
 
-            <div className="bg-gray-300 w-full py-5 px-14 ">
+            <div className="bg-gray-300 w-full py-5 px-14">
                 {/* main heading */}
                 <h1 className="text-4xl font-semibold m-5 ">Upcoming Adventures</h1>
                

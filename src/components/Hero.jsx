@@ -86,14 +86,14 @@ const Hero = () => {
             <img src={slide.img} className="w-full h-full object-cover absolute" />
 
             {/* LEFT CONTENT */}
-            <div className="left-info absolute top-0 left-0 w-[50%] h-[100%]">
+            <div className="left-info absolute top-0 left-0 w-[50%] h-[100%] lefttext">
               <div className="blurs absolute w-full h-full bg-[rgb(255,255,255,.1)] backdrop-blur-lg flex items-center justify-end pr-4">
                 <h1 className="text-[200px] text-white font-semibold">{slide.left}</h1>
               </div>
 
               <div className="content absolute left-[8%] bottom-[5%] text-white">
-                <div className="text-3xl font-medium">{slide.title}</div>
-                <p className="text-lg my-2.5 mr-2.5">
+                <div className="htitle text-3xl font-medium">{slide.title}</div>
+                <p className="hdes text-lg my-2.5 mr-2.5">
                  {slide.description}
                 </p>
 
@@ -108,9 +108,9 @@ const Hero = () => {
 
             {/* RIGHT TEXT */}
             <div className="right-info absolute top-0 right-0 w-[50%]
-              h-[100%] flex flex-col items-start justify-center"
+              h-[100%] flex flex-col items-start justify-center righttext"
             >
-              <h1 className="r-text text-[200px] text-white font-semibold">{slide.right}</h1>
+              <h1 className="r-text text-[200px] text-white font-semibold ">{slide.right}</h1>
               <h3 className="absolute text-[80px] text-white translate-y-[130%] ml-3">
                 Forest
               </h3>

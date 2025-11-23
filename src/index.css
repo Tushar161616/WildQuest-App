@@ -2,15 +2,30 @@
 
 
 
-
-
-
-
-
-
-
-
 .right-info>h1{
     
     text-shadow: 0 0 10px rgba(255,255,255,.8);
+}
+
+
+#sidebar{
+    padding: 0px 30px !important;
+   
+}
+
+#sidebar>div{
+    margin-bottom: 30px !important;
+}
+
+
+.ham-menu{
+    display: none;
+}
+
+.show{
+    display: block !important;
+}
+
+.hidden{
+    display: none !important;
 }
