@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 
 
@@ -10,11 +5,13 @@
 
 /* responsive css */
 
+
+
 @media (max-width:480px){
 
     /* header code */
     
-.ham-menu{
+ .ham-menu{
     display: inline-block;
 }
 
@@ -33,10 +30,14 @@
 
 .leftdiv>input{
     padding-left: 10px !important;
-}
+} 
+
+
+
+
 
 /* hero code */
-/* 
+
 .htitle{
     font-size: 30px !important;
 }
@@ -46,11 +47,7 @@
  
 }
 
-.btn{
-   font-size: 15px !important;
-   padding: 10px 20px !important;
-   margin-top: 10px !important;
-}
+
 
 .lefttext{
     display: none;
@@ -58,11 +55,48 @@
 
 .righttext{
     display: none;
-} */
+} 
 
 
+/* event section code */
+.upcom>h1{
+    font-size: 30px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.e1{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.e1>div{
+    width: 100% !important;
+}
+
+.e2>div{
+    width: 100% !important;
+}
+
+.e3>div{
+    width: 100% !important;
+}
+
+.e2{
+    flex-direction: column-reverse !important;
+    gap: 100px !important;
+}
 
 
+.e3{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+
+.hillh{
+    font-size: 30px !important;
+}
 
 
 
@@ -72,7 +106,7 @@
 
 /* footer code */
 
-/* .bmsg{
+ .bmsg{
 
     font-size: 10px !important;
 
@@ -87,33 +121,926 @@
 }
 
 .btext>div{
-   width: 50% !important;
-
+   width: 60% !important;
+   /* border: 2px solid white; */
+   
+   
     
 }
 
 .bbox{
      height: 100% !important;
      padding: 100px 0px !important;
-} */
+} 
 
+
+
+/* trecking page  */
+
+
+#trckh>h1{
+    font-size: 35px !important;
+
+}
+
+#trckh>p{
+    font-size: 15px !important;
+
+}
+
+.Tcards{
+    flex-direction: column !important;
+}
+
+.Tcards>div{
+    width: 100% !important;
+}
+
+.Tref{
+    flex-direction: column !important;
+      align-items: flex-start !important;
+}
+
+/* safari section */
+
+.Scards{
+    flex-direction: column !important;
+}
+
+.Scards>div{
+    width: 100% !important;
+}
+
+/* services section */
+
+.upcom>h1{
+    font-size: 30px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.s1{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.s1>div{
+    width: 100% !important;
+}
+
+.s2>div{
+    width: 100% !important;
+}
+
+.s3>div{
+    width: 100% !important;
+}
+
+.s4>div{
+    width: 100% !important;
+}
+
+.s2{
+    flex-direction: column-reverse !important;
+    gap: 100px !important;
+}
+
+
+.s3{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.s4{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+
+/* contact section  */
+
+.conS{
+    flex-direction: column !important;
+    gap: 20px !important;
+}
+
+.conS>form{
+    width: 100% !important;
+}
+
+
+.conrow{
+    flex-direction: column !important;
+}
 
 
 }
+
+
 
 
 @media (max-width:575px){
 
+    /* header code */
+    
+ .ham-menu{
+    display: inline-block;
+}
+
+#nav-links{
+    display: none !important;
+}
+
+#srch-box{
+    top: 60px !important;
+    right: 10px !important;
+}
+
+.leftdiv{
+    width: 100% !important;
+}
+
+.leftdiv>input{
+    padding-left: 10px !important;
+} 
+
+
+
+
+
+/* hero code */
+
+.htitle{
+    font-size: 30px !important;
+}
+
+.hdes{
+    font-size: small !important;
+ 
+}
+
+
+
+.lefttext{
+    display: none;
+}
+
+.righttext{
+    display: none;
+} 
+
+
+/* event section code */
+.upcom>h1{
+    font-size: 30px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.e1{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.e1>div{
+    width: 100% !important;
+}
+
+.e2>div{
+    width: 100% !important;
+}
+
+.e3>div{
+    width: 100% !important;
+}
+
+.e2{
+    flex-direction: column-reverse !important;
+    gap: 100px !important;
+}
+
+
+.e3{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+
+.hillh{
+    font-size: 30px !important;
+}
+
+
+
+
+
+
+
+/* footer code */
+
+
+
+.btext{
+    flex-direction: column !important;
+    height: 100% !important;
+    flex-wrap: wrap;
+   
+    gap: 50px !important;
+}
+
+.btext>div{
+   width: 60% !important;
+   /* border: 2px solid white; */
+   
+   
     
 }
 
-@media (max-width:767px){
+.bbox{
+     height: 100% !important;
+     padding: 100px 0px !important;
+} 
 
+/* trecking page  */
+
+
+#trckh>h1{
+    font-size: 35px !important;
+
+}
+
+#trckh>p{
+    font-size: 15px !important;
+
+}
+
+.Tcards{
+    flex-direction: column !important;
+}
+
+.Tcards>div{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.Tref{
+    flex-direction: column !important;
+      align-items: flex-start !important;
+}
+
+/* safari section */
+
+.Scards{
+    flex-direction: column !important;
+}
+
+.Scards>div{
+    width: 100% !important;
+}
+
+/* services section */
+
+
+
+.s1{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.s1>div{
+    width: 100% !important;
+}
+
+.s2>div{
+    width: 100% !important;
+}
+
+.s3>div{
+    width: 100% !important;
+}
+
+.s4>div{
+    width: 100% !important;
+}
+
+.s2{
+    flex-direction: column-reverse !important;
+    gap: 100px !important;
+}
+
+
+.s3{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.s4{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+
+/* contact section  */
+
+.conS{
+    flex-direction: column !important;
+    gap: 20px !important;
+}
+
+.conS>form{
+    width: 100% !important;
+}
+
+
+.conrow{
+    flex-direction: column !important;
+}
+
+
+
+}
+
+
+
+@media (max-width: 767px){
+
+    /* header code */
+    
+ .ham-menu{
+    display: inline-block;
+}
+
+#nav-links{
+    display: none !important;
+}
+
+#srch-box{
+    top: 60px !important;
+    right: 0px !important;
+}
+
+.leftdiv{
+    width: 100% !important;
+}
+
+.leftdiv>input{
+    padding-left: 10px !important;
+} 
+
+
+
+
+
+/* hero code */
+
+
+
+
+
+.lefttext{
+  display: none;
+}
+
+.righttext{
+    display: none;
+} 
+
+
+/* event section code */
+.upcom>h1{
+    font-size: 30px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.e1{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.e1>div{
+    width: 100% !important;
+}
+
+.e2>div{
+    width: 100% !important;
+}
+
+.e3>div{
+    width: 100% !important;
+}
+
+.e2{
+    flex-direction: column-reverse !important;
+    gap: 100px !important;
+}
+
+
+.e3{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+
+.hillh{
+    font-size: 30px !important;
+}
+
+
+
+
+
+
+
+/* footer code */
+
+
+
+
+.btext>div{
+   width: 60% !important;
+   /* border: 2px solid white; */
+   
+   
     
 }
 
-@media (max-width:991px){
+.bbox{
+     height: 100% !important;
+     padding: 80px 20px !important;
+} 
 
+
+/* trecking page  */
+
+
+#trckh>h1{
+    font-size: 35px !important;
+
+}
+
+#trckh>p{
+    font-size: 15px !important;
+
+}
+
+.Tcards{
+    flex-direction: column !important;
+}
+
+.Tcards>div{
+    width: 60% !important;
+    height: 100% !important;
     
 }
+
+.Tref{
+    flex-direction: column !important;
+      align-items: flex-start !important;
+}
+
+/* safari section */
+
+.Scards{
+    flex-direction: column !important;
+}
+
+.Scards>div{
+    width: 70% !important;
+}
+
+/* services section */
+
+
+
+.s1{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.s1>div{
+    width: 100% !important;
+}
+
+.s2>div{
+    width: 100% !important;
+}
+
+.s3>div{
+    width: 100% !important;
+}
+
+.s4>div{
+    width: 100% !important;
+}
+
+.s2{
+    flex-direction: column-reverse !important;
+    gap: 100px !important;
+}
+
+
+.s3{
+    flex-direction: column !important;
+    gap: 100px !important;
+}
+
+.s4{
+    flex-direction: column !important;
+    gap: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+
+/* contact section  */
+
+.conS{
+    flex-direction: column !important;
+    gap: 20px !important;
+}
+
+.conS>form{
+    width: 100% !important;
+}
+
+
+.conrow{
+    flex-direction: column !important;
+}
+
+
+
+
+}
+
+
+
+@media (max-width: 991px){
+
+    /* header code */
+    
+#nav-links{
+    width: 40% !important;
+}
+
+
+
+#srch-box{
+    top: 60px !important;
+    right: 0px !important;
+}
+
+
+
+.leftdiv>input{
+    padding-left: 10px !important;
+} 
+
+
+
+
+
+/* hero code */
+
+
+
+
+
+.lefttext{
+  display: none;
+}
+
+.righttext{
+    display: none;
+} 
+
+
+/* event section code */
+.upcom>h1{
+    font-size: 50px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.eventh{
+    font-size: 30px !important;
+    text-align: right;
+}
+
+.e1{
+    gap: 20px !important;
+}
+
+.e2{
+    gap: 20px !important;
+}
+
+.e3{
+    gap: 20px !important;
+}
+
+
+
+
+.hillh{
+    font-size: 30px !important;
+}
+
+
+
+
+
+
+
+/* footer code */
+
+ .bmsg{
+
+    font-size: 15px !important;
+
+}
+
+
+.btext>div{
+   width: 60% !important;
+   /* border: 2px solid white; */
+   
+   
+    
+}
+
+.bbox{
+     height: 100% !important;
+     padding: 80px 20px !important;
+} 
+
+/* trecking page  */
+
+
+#trckh>h1{
+    font-size: 45px !important;
+
+}
+
+#trckh>p{
+    font-size: 25px !important;
+
+}
+
+.Tcards>div{
+    width: 40% !important;
+    height: 100% !important;
+    
+}
+
+.Tref{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+
+/* safari section */
+
+.Scards>div{
+    width: 40% !important;
+}
+
+/* services section */
+
+
+
+.s1{
+   
+    gap: 100px !important;
+}
+
+
+
+.s2{
+    
+    gap: 100px !important;
+}
+
+
+.s3{
+    
+    gap: 100px !important;
+}
+
+.s4{
+    
+    gap: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+
+/* contact section  */
+
+.conS{
+    
+    gap: 20px !important;
+}
+
+.conS>form{
+    width: 100% !important;
+}
+
+
+.conrow{
+    flex-direction: column !important;
+}
+
+
+.conleft>div{
+    height: 160px !important;
+}
+
+
+}
+
+
+@media (max-width: 1440px){
+
+    /* header code */
+    
+#nav-links{
+    width: 40% !important;
+}
+
+
+
+#srch-box{
+    top: 60px !important;
+    right: 0px !important;
+}
+
+
+
+.leftdiv>input{
+    padding-left: 10px !important;
+} 
+
+
+
+
+
+/* hero code */
+
+
+
+
+
+.lefttext{
+  display: none;
+}
+
+.righttext{
+    display: none;
+} 
+
+
+/* event section code */
+.upcom>h1{
+    font-size: 50px !important;
+    margin: 0px !important;
+    text-align: center !important;
+}
+
+.eventh{
+    font-size: 30px !important;
+    text-align: right;
+}
+
+.e1{
+    gap: 20px !important;
+}
+
+.e2{
+    gap: 20px !important;
+}
+
+.e3{
+    gap: 20px !important;
+}
+
+
+
+
+.hillh{
+    font-size: 30px !important;
+}
+
+
+
+
+
+
+
+/* footer code */
+
+ .bmsg{
+
+    font-size: 15px !important;
+
+}
+
+
+.btext>div{
+   width: 60% !important;
+   /* border: 2px solid white; */
+   
+   
+    
+}
+
+.bbox{
+     height: 100% !important;
+     padding: 80px 20px !important;
+} 
+
+/* trecking page  */
+
+
+#trckh>h1{
+    font-size: 45px !important;
+
+}
+
+#trckh>p{
+    font-size: 25px !important;
+
+}
+
+.Tcards>div{
+    width: 40% !important;
+    height: 100% !important;
+    
+}
+
+.Tref{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+
+/* safari section */
+
+.Scards>div{
+    width: 40% !important;
+}
+
+/* services section */
+
+
+
+.s1{
+   
+    gap: 100px !important;
+}
+
+
+
+.s2{
+    
+    gap: 100px !important;
+}
+
+
+.s3{
+    
+    gap: 100px !important;
+}
+
+.s4{
+    
+    gap: 100px !important;
+    margin-bottom: 50px !important;
+}
+
+
+/* contact section  */
+
+.conS{
+    
+    gap: 20px !important;
+}
+
+.conS>form{
+    width: 100% !important;
+}
+
+
+.conrow{
+    flex-direction: column !important;
+}
+
+
+.conleft>div{
+    height: 160px !important;
+}
+
+
+}
+
+
 

@@ -46,10 +46,10 @@ const Contact = () => {
             </div>
 
 
-            <div className="w-full flex items-center justify-around p-[50px]">
+            <div className="conS w-full flex items-center justify-around p-[50px]">
 
 
-                <div className="h-full  w-[350px] flex flex-col gap-5">
+                <div className="conleft h-full  w-[350px] flex flex-col gap-5">
                     
                     {/* phone div */}
                     <div className="w-full h-[120px] border rounded-2xl p-3">
@@ -88,7 +88,7 @@ const Contact = () => {
                     </div>
 
                     {/* first row */}
-                    <div className=" gap-5 flex justify-between">
+                    <div className="conrow gap-5 flex justify-between">
                         <div className="w-full">
                             <label for="name" className="font-semibold">Full Name *</label>
                          <input id="name" className="outline-0 pl-5 border border-gray-500 rounded-xl bg-transparent w-full h-[50px] text-xl placeholder:text-lg " onChange={updateUser}  type="text" placeholder="Enter your full name" name="name" value={name} ></input>
@@ -106,7 +106,7 @@ const Contact = () => {
                     </div>
 
                     {/* second row */}
-                    <div className=" gap-5 flex justify-between">
+                    <div className="conrow gap-5 flex justify-between">
 
                         
                         <div className="w-full">

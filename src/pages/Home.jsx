@@ -149,12 +149,12 @@ const Home = () => {
 
             {/* up-coming events section */}
 
-            <div className="bg-gray-300 w-full py-5 px-14">
+            <div className="bg-gray-300 w-full py-5 px-14 upcom">
                 {/* main heading */}
                 <h1 className="text-4xl font-semibold m-5 ">Upcoming Adventures</h1>
                
                {/* event-1 */}
-               <div className="flex mt-20">
+               <div className="e1 flex mt-20">
 
                  {/* image section */}
                 <div className=" flex justify-left items-center w-[50%] h-[50vh] ">
@@ -164,7 +164,7 @@ const Home = () => {
                 {/* Text section */}
                 <div className=" w-[50%] h-[50vh] flex flex-col justify-center items-end gap-5">
                     {/* box heading */}
-                    <div className="text-3xl font-semibold">Moonlight Desert Trek – Jaisalmer (Dec 2025)</div>
+                    <div className="eventh text-3xl font-semibold">Moonlight Desert Trek – Jaisalmer (Dec 2025)</div>
 
                     <p className="text-lg text-right">Feel the magic of golden desert dunes under a blanket of sparkling stars as night falls, where silence speaks, adventure rises, and unforgettable moments come alive beneath the moonlit sky.</p>
 
@@ -182,13 +182,13 @@ const Home = () => {
                 </div>
 
                 {/* event-2 */}
-               <div className="flex mt-20">
+               <div className="e2 flex mt-20">
 
                 
                 {/* Text section */}
                 <div className=" w-[50%] h-[50vh] flex flex-col justify-center items-start gap-5">
                     {/* box heading */}
-                    <div className="text-3xl font-semibold">Valley Bike Expedition – Manali (Jan 2026)</div>
+                    <div className=" text-3xl font-semibold">Valley Bike Expedition – Manali (Jan 2026)</div>
 
                     <p className="text-lg text-left">Ride through the mighty Himalayas, where thrilling mountain roads, fresh chill winds, breathtaking heights, and endless adventure come together, giving you a journey filled with excitement, courage, and unforgettable memories.
 </p>
@@ -210,7 +210,7 @@ const Home = () => {
                 </div>
 
                 {/* event-3 */}
-               <div className="flex mt-20">
+               <div className="e3 not-first-of-type:flex mt-20">
 
                  {/* image section */}
                 <div className=" flex justify-left items-center w-[50%] h-[50vh] ">
@@ -220,7 +220,7 @@ const Home = () => {
                 {/* Text section */}
                 <div className="  w-[50%] h-[50vh] flex flex-col justify-center items-end gap-5">
                     {/* box heading */}
-                    <div className="text-3xl font-semibold">Mystery Forest Camping – Jim Corbett (Feb 2026)</div>
+                    <div className=" eventh text-3xl font-semibold">Mystery Forest Camping – Jim Corbett (Feb 2026)</div>
 
                     <p className="text-lg text-right">Enjoy warm bonfire nights, thrilling wildlife stories, and magical stargazing moments in Jim Corbett Park, where nature’s beauty, adventure, and unforgettable experiences come together under the serene forest sky.</p>
 
@@ -244,7 +244,7 @@ const Home = () => {
 
             <div className="w-full  bg-gray-400 py-[40px] flex flex-col items-center">
                 {/* heading */}
-                <div className="text-5xl font-bold text-center text-black">Explore Top Hill Stations</div>
+                <div className="hillh text-5xl font-bold text-center text-black">Explore Top Hill Stations</div>
 
                 {/* name cards */}
 

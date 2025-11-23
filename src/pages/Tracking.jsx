@@ -76,7 +76,7 @@ const Tracking = () => {
     return(
         <div>
             
-            <div style={{ backgroundImage: `url("https://t3.ftcdn.net/jpg/01/96/01/82/360_F_196018299_moUD9nFRL1OWaVTUG7YgsdCk3gCQVzj7.jpg")`, backgroundRepeat:"no-repeat", backgroundSize: "cover", backgroundPosition: "center center" }} className=" w-full h-[50vh]  flex flex-col justify-center items-center ">
+            <div id="trckh" style={{ backgroundImage: `url("https://t3.ftcdn.net/jpg/01/96/01/82/360_F_196018299_moUD9nFRL1OWaVTUG7YgsdCk3gCQVzj7.jpg")`, backgroundRepeat:"no-repeat", backgroundSize: "cover", backgroundPosition: "center center" }} className=" w-full h-[50vh]  flex flex-col justify-center items-center ">
                 <h1 className="text-5xl text-white font-semibold ">Our Traking Packages</h1>
                  
 
@@ -97,7 +97,7 @@ const Tracking = () => {
                
                 
 
-                <div className=' flex flex-wrap items-center justify-center gap-10'>
+                <div className='Tcards flex flex-wrap items-center justify-center gap-10'>
                     
                 
 
@@ -146,7 +146,7 @@ const Tracking = () => {
 
 
                                 {/* facilites */}
-                                <div className="flex items-center mx-4 gap-2">
+                                <div className="Tref flex items-center mx-4 gap-2">
                                      <div className="flex items-center gap-1  my-1 rounded-2xl px-3 border">
                                         <FontAwesomeIcon icon={faUtensils} size="xs" />
                                         <p className="text-sm">Refreshments</p>

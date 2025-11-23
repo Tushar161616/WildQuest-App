@@ -42,7 +42,7 @@ const Safari = () => {
     return(
            <div>
             
-            <div style={{ backgroundImage: `url("https://t4.ftcdn.net/jpg/03/10/11/87/360_F_310118733_yP2aaium410OlaEUaP5zjbLIL8isZlvN.jpg")`, backgroundRepeat:"no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }} className=" w-full h-[50vh] bg-green-500 flex flex-col justify-center items-center">
+            <div id="safarih" style={{ backgroundImage: `url("https://t4.ftcdn.net/jpg/03/10/11/87/360_F_310118733_yP2aaium410OlaEUaP5zjbLIL8isZlvN.jpg")`, backgroundRepeat:"no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }} className=" w-full h-[50vh] bg-green-500 flex flex-col justify-center items-center">
                 <p className="mt-2 text-5xl font-bold tracking-tight text-balance text-white sm:text-6xl">
          Wildlife Packages
         </p>
@@ -65,7 +65,7 @@ Discover forests, animals, and nature like never before.
       </div>
      
 
-    <div className='flex flex-wrap items-center justify-center gap-20'>
+    <div className='Scards flex flex-wrap items-center justify-center gap-20'>
         
        
 

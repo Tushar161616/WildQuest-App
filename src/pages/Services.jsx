@@ -18,7 +18,7 @@ const Services = () => {
                
                
                 {/* Hotel section */}
-               <div className="flex mt-20">
+               <div className="s1 flex mt-20">
 
                  {/* image section */}
                 <div className=" flex justify-left items-center w-[50%] h-[50vh] ">
@@ -46,7 +46,7 @@ const Services = () => {
                 </div>
 
                 {/*  Food  Section */}
-               <div className="flex mt-20">
+               <div className="s2 flex mt-20">
 
                 
                 {/* Text section */}
@@ -75,7 +75,7 @@ const Services = () => {
 
                 
                 {/* rent section */}
-               <div className="flex mt-20">
+               <div className="s3 flex mt-20">
 
                  {/* image section */}
                 <div className=" flex justify-left items-center w-[50%] h-[50vh] ">
@@ -103,7 +103,7 @@ const Services = () => {
                 </div>
 
                 {/*  Medical  Section */}
-               <div className="flex mt-20">
+               <div className="s4 flex mt-20">
 
                 
                 {/* Text section */}

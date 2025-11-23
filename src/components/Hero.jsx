@@ -86,8 +86,8 @@ const Hero = () => {
             <img src={slide.img} className="w-full h-full object-cover absolute" />
 
             {/* LEFT CONTENT */}
-            <div className="left-info absolute top-0 left-0 w-[50%] h-[100%] lefttext">
-              <div className="blurs absolute w-full h-full bg-[rgb(255,255,255,.1)] backdrop-blur-lg flex items-center justify-end pr-4">
+            <div className="left-info absolute top-0 left-0 w-[50%] h-[100%]">
+              <div className="lefttext blurs absolute w-full h-full bg-[rgb(255,255,255,.1)] backdrop-blur-lg flex items-center justify-end pr-4">
                 <h1 className="text-[200px] text-white font-semibold">{slide.left}</h1>
               </div>
 
