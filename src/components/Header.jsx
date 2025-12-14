@@ -114,10 +114,7 @@ const Header = () => {
 
     const [open,setOpen] = useState("false");
 
-      function Togglebtn(){
-    setOpen(!open);
-    // alert("all done ")
-  }
+    
   
   const [query, setQuery] = useState("");
 
@@ -153,11 +150,12 @@ const Header = () => {
 
 
             {/* mobile menu */}
-            {open ? <div id="sidebar" className="bg-gray-300 h-[100vh] w-[70%] absolute top-0 left-0 z-100 flex flex-col ">
+
+           <div id="sidebar" className={` ${open === true ? "translate-y-0": "translate-y-full"}    bg-gray-300 h-[100vh] w-[70%] absolute top-0 left-0 z-100 flex flex-col `}>
                 {/* top logo  */}
                 <div className=" w-full ">
                      <div className=" text-[30px] font-bold text-green-500"><NavLink to="/">WildQuest</NavLink></div>
-                     <button onClick={Togglebtn} className="text-2xl absolute right-4 top-2 text-black font-bold">✕</button>
+                     <button onClick={()=>setOpen(false)} className="text-2xl absolute right-4 top-2 text-black font-bold">✕</button>
                 </div>
 
                 {/* pages links */}
@@ -172,9 +170,11 @@ const Header = () => {
            </div>
                 </div>
 
-            </div>  : null}
+            </div>
 
-            <button className="ham-menu" onClick={Togglebtn}><FontAwesomeIcon icon={faBars} color="black" size="xl"/></button>
+            
+
+            <button className="ham-menu" onClick={()=>setOpen(true)}><FontAwesomeIcon icon={faBars} color="black" size="xl"/></button>
 
 
 
