@@ -45,4 +45,4 @@ npm install
 4️⃣ Start the Development Server
 npm run dev
 
-<a href="https://wildquest-app.vercel.app/" target="_blank">Live Link</a>
+<a href="https://wild-quest-app.vercel.app/">Live Link</a>
